@@ -1,0 +1,173 @@
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #5a5abb;
+	font-size: 100%;
+	background-color: #fdf9f6;
+	background: url("../media/bg1.jpg") no-repeat center left fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #5a5abb;
+}
+
+	a:hover {
+		color: #2b2b68;
+	}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+
+.ItsMe img {
+	position: absolute;
+	left: 20%;
+	max-width: 90%;
+	max-height: 90%;
+}
+
+nav {
+	z-index: 10;
+	position: absolute;
+	display: block;
+	padding: 0.2em 0.2em 0.2em 0.2em;
+	top: 10%;
+	right: 20%;
+}
+
+	nav a {
+		font-size: 1.3em;
+		margin-left: 0.5em;
+		background-color: rgba(236, 236, 236, 0.80);
+		border-radius: 0.2em;
+		padding: 0.5em;
+	}
+
+		nav a:hover {
+			background-color: rgba(200, 167, 167, 0.35);
+			transition: .2s ease-in;
+		}
+
+span.navigate{
+		font-size: 1.3em;
+		margin-left: 0.5em;
+		background-color: rgba(236, 236, 236, 0.80);
+		border-radius: 0.2em;
+		padding: 0.5em;
+		text-align: center;
+}
+
+span.navigate:hover {
+			background-color: rgba(200, 167, 167, 0.35);
+			transition: .2s ease-in;
+}
+
+.thumb{
+		font-size: 1.3em;
+		margin-left: 0.5em;
+		background-color: rgba(236, 236, 236, 0.80);
+		border-radius: 0.2em;
+		padding: 0.5em;
+		text-align: center;
+}
+
+.thumb:hover {
+			background-color: rgba(200, 167, 167, 0.35);
+			transition: .2s ease-in;
+}
+
+.thumb img{
+	
+}
+
+
+header {
+	position: absolute;
+	top: 30%;
+	right: 20%;
+	text-align: right;
+	font-weight: normal;
+}
+
+@media (max-width: 1100px) {
+	body {
+		font-size: 100%;
+	}
+
+	header {
+		right: 10%;
+	}
+
+	.ItsMe img {
+		left: 10%;
+	}
+
+	nav {
+		right: 10%;
+	}
+}
+
+@media (max-width: 700px) {
+	body {
+		font-size: 90%;
+	}
+
+	header {
+		top: 35%;
+		right: 5%;
+	}
+
+	.ItsMe img {
+		left: 5%;
+	}
+
+	nav {
+		right: 5%;
+	}
+}
+
+@media (max-width: 400px) {
+	body {
+		font-size: 80%;
+	}
+
+	header {
+		/*background-color: rgba(236, 236, 236, 0.76);
+		border-radius: 0.4em;*/
+		right: 2%;
+	}
+
+	.ItsMe img {
+		left: 1%;
+	}
+
+	nav {
+		right: 2%;
+	}
+}
