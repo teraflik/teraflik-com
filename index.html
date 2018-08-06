@@ -1,35 +1,56 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="TeraFlik - Flik out the ideas..." />
-	<meta name="keywords" content="TeraFlik" />
-	
-	<link rel="stylesheet" href="css/main.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<meta name="description" content="TeraFlik | Home" />
+	<meta name="keywords" content="teraflik Raghav Khandelwal" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css">
+	<link rel="stylesheet" href="css/main.css" />
 	<link rel="shortcut icon" type="image/png" href="media/favicon.png" />
 	<title>TeraFlik - Flik out the ideas...</title>
 </head>
 
 <body>
-	<figure class="ItsMe">
-		<img src="media/ItsMe.png" />
-	</figure>
-	<header>
-		<a href="https://www.facebook.com/RaghavTheCyberdude" target="_blank"><i class="fa fa-facebook-square"></i></a>&nbsp;
-		<a href="https://www.twitter.com/gr8Raghav" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;
-		<a href="https://plus.google.com/+RaghavKhandelwalRTC" target="_blank"><i class="fa fa-google-plus"></i></a>&nbsp;
-		<a href="https://github.com/raghavthecyberdude" target="_blank"><i class="fa fa-github-square"></i></a>&nbsp;
-		<h1>Hi, I'm Raghav.</h1>
-		<div>
-			<a href="http://blog.teraflik.com"><span class="navigate"><i class="fa fa-pencil"></i>&nbsp;Blog</span></a>
-			<a href="projects/index.html"><span class="navigate"><i class="fa fa-archive"></i>&nbsp;Projects</span></a>
-		</div>
-	</header>
+	<div id="wrapper" class="toggled">
+	<nav id="sidebar-wrapper">
+		<header class="sidebar-header">
+			TeraFlik
+		</header>
+		<ul class="sidenav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<main id="pagepiling">
+		<section class="section">
+			<div class="container">
+				<figure class="ItsMe">
+					<img src="media/ItsMe.png" />
+				</figure>
+				<div>
+					<h1>Hi, I'm Raghav.</h1>
+					<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+					<div>
+						<a href="http://blog.teraflik.com"><span class="navigate"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Blog</span></a>
+						<a href="projects/index.html"><span class="navigate"><i class="fa fa-archive" aria-hidden="true"></i>&nbsp;Projects</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
